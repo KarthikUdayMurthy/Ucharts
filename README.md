@@ -4,7 +4,7 @@ Superheroic Data Visualization library for bar, line and doughnut charts contain
 
 Self Help:
 
-/*Developer  Karthik Uday Murthy
+Developer  Karthik Uday Murthy
 
 -------Syntax:-------
 
@@ -49,6 +49,7 @@ drawBenchMarks(array if objects);
 example:
 
 x.drawBenchMarks([{name:'50th Percentile',value:18,color:"#993300"},{name:'75th Percentile',value:36,color:"#009933"}]);
+
 
 
 
