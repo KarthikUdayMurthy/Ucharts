@@ -6,7 +6,7 @@ Self Help:
 
 Developer  Karthik Uday Murthy
 
--------Syntax:-------
+## -------Syntax:-------
 
 ```javascript
 
@@ -26,7 +26,7 @@ var x = new UChart(id,data,x,"",width,"",colors); // for Dough Nut chart
     
 ```
     
------------Parameters:-----------
+## -----------Parameters:-----------
 
 id = Parent id in which the chart needs to created (Mandatory).
 
@@ -44,7 +44,7 @@ colors = Array with two array of colors first one for bar and second is used whe
 
 
 
--------------------Additional Methods:-------------------
+## -------------------Additional Methods:-------------------
 
 ```javascript
 drawBenchMarks(array of objects);
