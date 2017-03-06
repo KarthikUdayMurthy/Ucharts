@@ -47,7 +47,7 @@ colors = Array with two array of colors first one for bar and second is used whe
 -------------------Additional Methods:-------------------
 
 ```javascript
-drawBenchMarks(array if objects);
+drawBenchMarks(array of objects);
 
 //example:
 
