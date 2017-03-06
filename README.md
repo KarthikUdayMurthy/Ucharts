@@ -8,21 +8,23 @@ Developer  Karthik Uday Murthy
 
 -------Syntax:-------
 
-var x = new UChart(id,data,x,y,width,height,colors);
+```javascript
+
+var x = new UChart(id,data,x,y,width,height,colors); // for bar chart
 
     x.drawBarChart(); // for bar chart
     
     
-var x = new UChart(id,data,x,y,width,height,colors);
+var x = new UChart(id,data,x,y,width,height,colors); // for line chart
 
     x.drawLineChart(); // for line chart
     
     
-var x = new UChart(id,data,x,"",width,"",colors);
+var x = new UChart(id,data,x,"",width,"",colors); // for Dough Nut chart
 
     x.drawDnutChart(); // for Dough Nut chart
     
-    
+```
     
 -----------Parameters:-----------
 
@@ -44,9 +46,10 @@ colors = Array with two array of colors first one for bar and second is used whe
 
 -------------------Additional Methods:-------------------
 
+```javascript
 drawBenchMarks(array if objects);
 
-example:
+//example:
 
 x.drawBenchMarks([{name:'50th Percentile',value:18,color:"#993300"},{name:'75th Percentile',value:36,color:"#009933"}]);
 
@@ -55,6 +58,8 @@ x.drawBenchMarks([{name:'50th Percentile',value:18,color:"#993300"},{name:'75th 
 
 toggleValues();
 
-example:
+//example:
 
 x.toggleValues();
+
+```
